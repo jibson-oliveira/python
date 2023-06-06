@@ -3,4 +3,4 @@ meses = int(input("Informe a quantidade de meses: "))
 
 valor = parcela * meses
 
-print (f"O valor da compra é: {valor:,.2f}")
+print (f"O valor da compra é: R$ {valor:,.2f}")
