@@ -8,12 +8,12 @@ media = (nota1+nota2+nota3+nota4)/4
 
 if media < 5:
     resultado = ("reprovado")
-    print (f"O aluno {aluno} está {resultado}. Sua média foi {media}")
+    print (f"O aluno {aluno} está {resultado}. Sua média foi {media:.1f}")
 
 elif media >= 5 and media <= 7:
     resultado = ("em recuperação")
-    print (f"O aluno {aluno} está {resultado}. Sua média foi {media}")
+    print (f"O aluno {aluno} está {resultado}. Sua média foi {media:.1f}")
 
 else: 
     resultado = ("aprovado")
-    print (f"O aluno {aluno} está {resultado}. Sua média foi {media}")
+    print (f"O aluno {aluno} está {resultado}. Sua média foi {media:.1f}")
