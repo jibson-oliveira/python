@@ -32,3 +32,15 @@ if quant_notas_informadas > 0:
     print(f"Média: {media}")
 else:
     print("Nenhuma nota informada. ")
+
+
+x = 0
+soma = 0
+quant_numeros = int (input("Quantos numeros deseja somar? "))
+while x < quant_numeros:
+    soma = soma + int(input("Informe um numero inteiro para a soma: "))
+    x = x+1
+
+print (f"Soma: {soma}")
+
+
