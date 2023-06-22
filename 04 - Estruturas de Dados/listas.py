@@ -62,3 +62,23 @@ del idiomas[3]
 print (idiomas)
 del idiomas[1:4]
 print (idiomas)
+
+
+lista_livros = ['livro 1', 'livro 2', 'livro 3']
+print (lista_livros)
+lista_livros.clear()
+print (lista_livros)
+
+lista_livros = ['livro 1', 'livro 2', 'livro 3']
+print (lista_livros)
+lista_livros = []
+print (lista_livros)
+
+
+
+lista = [10, 13, 17, ["Maçã", "Banana","Limão"]]
+print(lista)
+frutas = lista[3]
+print (frutas)
+soma = lista [0] + lista [1] + lista [2]
+print (soma)
