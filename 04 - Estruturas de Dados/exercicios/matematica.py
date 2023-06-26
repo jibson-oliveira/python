@@ -22,3 +22,5 @@ if lista:
     print ("Multiplicação: ", multiplicacao)
     print ("Maior: ", maior)
     print ("Menor: ", menor)
+else:
+    print ("Nenhum numero informado.")
