@@ -73,3 +73,5 @@ tupla_carros = "Golf", "Corolla", "Civic", "Opala", "Tucson", "Elantra"
 carro1, *carros = tupla_carros
 print (f"Carro 1: {carro1}")
 print (f"Carros: {carros}")
+
+# Uma lista como elemento de uma tupla
