@@ -12,7 +12,7 @@ O bloco de código da função não é executado enquando a mesma não for chama
 
 
 ### Criando uma função:
-'
+~~~python
 def soma ():
     numero1 = 10
     numero2 = 25
@@ -20,20 +20,20 @@ def soma ():
     print (f'Numero total é igual a : {total}')
 
 soma ()
-'
+~~~
 
 ### Passando parâmetros
-'
+~~~python
 def soma (numero1,numero2):
     total = numero1+numero2
     print (f'Numero total é igual a : {total}')
 
 soma (10,20)
-'
+~~~
 
 
 ### Indicando um valor de retorno usando return.
-'
+~~~
 def soma (numero1,numero2):
     resultado = numero1+numero2
     return resultado
@@ -41,10 +41,10 @@ def soma (numero1,numero2):
 
 total = soma (30,40)
 print (f'Resultado: {total}')
-'
+~~~
 
 ### Uma função que chama outra função
-'
+~~~python
 def maior_valor (valores):
     return max(valores)
 
@@ -58,7 +58,7 @@ def capturar_numeros():
     return maior_valor(lista_numeros)
 
 print (f'Maior valor = {capturar_numeros()}')
-'
+~~~
 
 
 
@@ -68,7 +68,7 @@ Desta forma, ela não é visivel fora da função.
 Uma variável global é definida fora de uma função, podendo ser vista por todas as funções do módulo
 e por todos os módulos que importam o módulo que a definiu
 
-'
+~~~python
 valor = 100.00
 def calculo():
     valor = 50.00
@@ -88,3 +88,4 @@ def calculo():
 print (f'Valor fora da função (global): {valor}')
 calculo()
 print (f'Valor fora da função (global): {valor}')
+~~~
