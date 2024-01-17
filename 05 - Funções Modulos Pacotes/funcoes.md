@@ -1,4 +1,4 @@
-### Funções
+# Funções
 
 Funções são blocos de códigos que possuem um nome e podem ou não receber parâmetros.
 Para criar uma função usamos a instrução def
@@ -11,7 +11,7 @@ O bloco de código da função não é executado enquando a mesma não for chama
 
 
 
-# Criando uma função:
+### Criando uma função:
 '''
 def soma ():
     numero1 = 10
@@ -22,7 +22,7 @@ def soma ():
 soma ()
 '''
 
-# Passando parâmetros
+### Passando parâmetros
 '''
 def soma (numero1,numero2):
     total = numero1+numero2
@@ -32,7 +32,7 @@ soma (10,20)
 '''
 
 
-# Indicando um valor de retorno usando return.
+### Indicando um valor de retorno usando return.
 '''
 def soma (numero1,numero2):
     resultado = numero1+numero2
@@ -43,7 +43,7 @@ total = soma (30,40)
 print (f'Resultado: {total}')
 '''
 
-# Uma função que chama outra função
+### Uma função que chama outra função
 '''
 def maior_valor (valores):
     return max(valores)
