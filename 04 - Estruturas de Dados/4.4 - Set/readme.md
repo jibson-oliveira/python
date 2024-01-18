@@ -24,3 +24,44 @@ conjunto_numeros = {10,30,40,20,10,15,30,0}
 print("conjunto_numeros: ", conjunto_numeros)
 conjunto_numeros:  {0, 20, 40, 10, 30, 15}
 ```
+
+#### Uma lista pode ser convertida em um conjunto.
+```
+lista_frutas = ["Abacaxi", "Abacaxi", "Laranja", "Maçã", "Abacaxi"]
+conjunto_frutas = set(lista_frutas)
+print("conjunto_frutas: ", conjunto_frutas)
+```
+
+#### União
+```
+conjunto_cores = {"Azul", "Azul", "Amarelo", "Verde", "Vermelho", "Branco", "Verde"}
+conjunto_carros = {"Gol", "Celta", "Clio", "Uno", "Uno", "Palio"}
+conjunto_uniao = conjunto_cores.union(conjunto_carros)
+print (conjunto_uniao)
+```
+
+#### Diferença
+```
+conjunto_diferenca = conjunto_uniao.difference(conjunto_carros)
+print(conjunto_diferenca)
+```
+
+#### Interseção
+```
+conjunto_pares = {2,4,6,8,10,12,14,16,18,20}
+conjunto_multiplos_5 = {5,10,15,20}
+conjunto_intersecao = conjunto_pares.intersection(conjunto_multiplos_5)
+print (conjunto_intersecao)
+```
+
+#### Testando se um **set** inclui outro **set**
+
+```
+linguagens = {"Python", "Java", "C++"}
+linguagem = {"Python"}
+if linguagens.issuperset(liguagem):
+    print("O Conjunto de linguagens inclui o conjunto linguagem.")
+else:
+    print ("O cnjunto de linguagens não inclui o conjunto linguagem.")
+```
+
