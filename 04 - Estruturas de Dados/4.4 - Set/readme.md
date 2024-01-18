@@ -59,9 +59,32 @@ print (conjunto_intersecao)
 ```
 linguagens = {"Python", "Java", "C++"}
 linguagem = {"Python"}
-if linguagens.issuperset(liguagem):
-    print("O Conjunto de linguagens inclui o conjunto linguagem.")
+if linguagens.issuperset(linguagem):
+    print("O conjunto de linguagens inclui o conjunto linguagem.")
 else:
-    print ("O cnjunto de linguagens não inclui o conjunto linguagem.")
+    print ("O conjunto de linguagens não inclui o conjunto linguagem.")
+
+linguagem = {"Ruby"}
+if linguagens.issuperset(linguagem):
+    print("O conjunto de linguagens inclui o conjunto linguagem.")
+else:
+    print ("O conjunto de linguagens não inclui o conjunto linguagem.")
+```
+
+#### Testando se um **set** está incluso em outro **set**
+
+```
+linguagens = {"Python", "Java", "C++"}
+linguagem = {"Python"}
+if linguagem.issubset(linguagens):
+    print("O conjunto de linguagens está incluso no conjunto linguagem.")
+else:
+    print ("O conjunto de linguagens não está incluso no conjunto linguagem.")
+
+linguagem = {"Ruby"}
+if linguagem.issubset(linguagens):
+    print("O conjunto de linguagens está incluso no conjunto linguagem.")
+else:
+    print ("O conjunto de linguagens não está incluso no conjunto linguagem.")
 ```
 
