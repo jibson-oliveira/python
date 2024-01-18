@@ -88,3 +88,19 @@ else:
     print ("O conjunto de linguagens não está incluso no conjunto linguagem.")
 ```
 
+#### Testando se um **set** não possui elementos em comum com outros **set**
+
+```
+linguagens1 = {"Python", "Java", "C++"}
+linguagens2 = {"Ruby", "Go", "Perl"}
+if linguagens1.isdisjoint(linguagens2):
+    print("Os conjuntos não possuem elementos em comum.")
+else:
+    print ("Os conjuntos possuem elementos em comum.")
+
+linguagens2 = {"Ruby", "Go", "Perl", "Python"}
+if linguagens1.isdisjoint(linguagens2):
+    print("Os conjuntos não possuem elementos em comum.")
+else:
+    print ("Os conjuntos possuem elementos em comum.")
+```
